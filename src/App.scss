@@ -1,0 +1,16 @@
+$primary-color: #ff4500;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: 
+    url('./assets/fonts/Segoe\ UI.woff') format('woff'),
+    url('./assets/fonts/Segoe\ UI\ Bold.woff') format('woff'),
+    url('./assets/fonts/Segoe\ UI\ Bold\ Italic.woff') format('woff'),
+    url('./assets/fonts/Segoe\ UI\ Italic.woff') format('woff');
+}
+
+.App {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+}
