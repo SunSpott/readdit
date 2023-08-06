@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/readdit/static/css/main.ffdd5b6a.css",
-    "main.js": "/readdit/static/js/main.f721cded.js",
+    "main.js": "/readdit/static/js/main.fe2400a5.js",
     "static/js/787.310abde8.chunk.js": "/readdit/static/js/787.310abde8.chunk.js",
     "static/media/Segoe UI Bold Italic.woff": "/readdit/static/media/Segoe UI Bold Italic.04ca0df8c9e54c81b1a5.woff",
     "static/media/Segoe UI Italic.woff": "/readdit/static/media/Segoe UI Italic.eb9dca895cf2de5deeda.woff",
@@ -9,11 +9,11 @@
     "static/media/Segoe UI.woff": "/readdit/static/media/Segoe UI.293e692f583af77a347b.woff",
     "index.html": "/readdit/index.html",
     "main.ffdd5b6a.css.map": "/readdit/static/css/main.ffdd5b6a.css.map",
-    "main.f721cded.js.map": "/readdit/static/js/main.f721cded.js.map",
+    "main.fe2400a5.js.map": "/readdit/static/js/main.fe2400a5.js.map",
     "787.310abde8.chunk.js.map": "/readdit/static/js/787.310abde8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffdd5b6a.css",
-    "static/js/main.f721cded.js"
+    "static/js/main.fe2400a5.js"
   ]
 }
