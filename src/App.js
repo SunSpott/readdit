@@ -1,16 +1,15 @@
-import { Route, RouterProvider, Routes, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.scss';
 import Layout from './components/Layout';
+import Home from './components/Home';
 
-const router = createBrowserRouter(createRoutesFromElements(
-  <>
-    <Routes>
-      <Route path='/' element={<Layout />} />
-    </Routes>
-  </>
-))
-
-
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/readdit" element={<Layout />}>
+      <Route index element={<Home />} />
+    </Route> 
+  )
+);
 
 function App() {
   return (

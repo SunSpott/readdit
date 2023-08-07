@@ -1,3 +1,70 @@
-svg {
-    font-size: 22px;
+.nav-bar {
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+
+    .logo {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+
+        svg {
+            font-size: 32px;
+            padding-left: 10px;
+        }
+
+        h1 {
+            font-size: 14px;
+            position: relative;
+            line-height: 0;
+            padding-left: 5px;
+            color: #333;
+        }
+
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        left: 40%;
+        position: absolute;
+        background: #f6f7f8;
+        
+        border-radius: 1.25em;
+        
+
+        form {
+            margin-left: 20px;
+
+            svg {
+                padding-right: 5px;
+            }
+        }
+
+        .search-input {
+            border: 0;
+            background: #f6f7f8;
+            font-size: 14px;
+            height: 36px;
+            width: 300px;
+            padding: 0;
+            border-radius: 1.25em;
+             
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &:hover {
+            transform: translateY(2px);
+            border: solid 1px #88f0f7;
+        }
+
+        
+    }
 }
+
