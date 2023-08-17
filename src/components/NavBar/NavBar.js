@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
+import './NavBar.scss'
 import { faReddit } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'

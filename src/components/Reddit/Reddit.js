@@ -1,4 +1,4 @@
-import './index.scss'
+import './Reddit.scss'
 
 const Home = () => {
     return (
